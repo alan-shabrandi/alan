@@ -21,7 +21,7 @@ app.use((req,res,next)=>{
 
 app.use((req,res,next)=>{
     if(req.url==='/'){
-        res.send("NOOOOO");
+        res.send("NOOOOO start");
     }
     else{
         next();
